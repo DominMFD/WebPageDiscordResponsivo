@@ -1,0 +1,112 @@
+
+@media screen and (min-width: 720px) {
+
+    
+    header {
+      height: 500px ;
+      background-image: url('../images/HeaderBackground2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+    }
+    
+    .headerContent {
+      margin: auto;
+      width: 757px;
+      display: flex;
+      flex-direction: column;
+      padding: 0 24px;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .headerContent h1 {
+      width: 313px;
+      color: white;
+      font-family: 'Luckiest Guy', cursive;
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 56px;
+      text-align: center;
+    }
+
+    .headerContent p {
+      color: white;
+      line-height: 21.60px;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .botoes {
+      flex-direction: row;
+    }
+
+
+    .botoes div {
+      padding: 12px;
+      font-weight: 400;
+      line-height: 21.60px;
+      font-size: 1rem;
+      border-radius: 30px;
+    }
+
+    .btnNavegador {
+      width: 281px;
+    }
+
+    .btnDownload {
+      width: 205px;
+    }
+
+    section {
+        margin: auto;
+        max-width: 1200px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    section div h1 {
+        font-size: 40px;
+        line-height: 54.48px;
+    }
+
+    section img {
+        flex-grow: 1;
+        flex-basis: auto;
+        object-fit: cover;
+    }
+
+    .section2 img{
+        order: 2;
+    }
+
+    .section4 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section4 img {
+        width: 784px ;
+        height: 100%;
+        order: 2;
+        flex-grow: 1;
+    }
+
+    .section4 .sectionContent h1 {
+        width: 608px;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 40px;
+        align-self: center;
+    }
+
+    .section4 .sectionContent p {
+      width: 802px;
+      font-size: 16px;
+      line-height: 21.79px;
+      text-align: center;
+    }
+
+}

@@ -1,0 +1,63 @@
+header {
+    background-image: url('../images/Header\ Background.png');
+    height: 506px;
+    padding: 77px 0;
+  }
+
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    gap: 24px;
+  }
+
+  .headerContent h1 {
+    width: 278px;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 32px;
+  }
+
+  .headerContent p {
+    color: white;
+    line-height: 21.60px;
+    font-size: 16px;
+  }
+
+  .botoes div {
+    text-align: center;
+    padding: 12px;
+    font-weight: 400;
+    line-height: 21.60px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border-color: transparent;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+
+  .btnNavegador {
+    color: white;
+    background-color: #23272A;
+  }
+
+  .btnNavegador:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+  }
+  
+  .btnDownload {
+    background-color: white;
+  }
+
+  .btnDownload:hover {
+    color: #A3A4F7;
+    cursor: pointer;
+  } 
